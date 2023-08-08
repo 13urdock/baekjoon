@@ -5,9 +5,9 @@ int main(void) {
     int a, b;
     scanf("%d %d", &a, &b);
     
-    int hundred = b / 100;
-    int ten = (b - hundred * 100) / 10;
-    int one = b - hundred * 100 - ten * 10;
+    int hundred = b / 100; //b 의 백의 자리 숫자
+    int ten = (b - hundred * 100) / 10; //b 의 십의 자리 숫자
+    int one = b - hundred * 100 - ten * 10; //b 의 일의 자리 숫자
 
     int three = a * one;
     int four = a * ten;
